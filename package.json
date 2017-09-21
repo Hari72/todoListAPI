@@ -1,0 +1,33 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hari72/todoListAPI.git"
+  },
+  "keywords": [
+    "RESTful",
+    "Node.js",
+    "MongoDB"
+  ],
+  "author": "Hariharan S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hari72/todoListAPI/issues"
+  },
+  "homepage": "https://github.com/Hari72/todoListAPI#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12"
+  }
+}
