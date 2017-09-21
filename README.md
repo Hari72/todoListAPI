@@ -4,11 +4,11 @@
 
 Building a RESTful API to create, update, delete tasks with inputs name and status.
 
-POST /tasks - Creates a task with inputs name and status (status is set to 'pending' by default)
-GET /tasks - Get all the tasks
-GET /tasks/taskId - Read a specific task
-PUT /tasks/taskId - Update a specific task
-DELETE /tasks/taskId - Deletes a specific task
+	POST /tasks - Creates a task with inputs name and status (status is set to 'pending' by default)
+	GET /tasks - Get all the tasks
+	GET /tasks/taskId - Read a specific task
+	PUT /tasks/taskId - Update a specific task
+	DELETE /tasks/taskId - Deletes a specific task
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
